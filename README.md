@@ -61,3 +61,13 @@ npm install bootstrap@3.3.7
 ```
 "styles": ["node_modules/bootstrap/dist/css/bootstrap.min.css", "src/styles.scss"],
 ```
+
+### ajout des modules forms et http dans **_app.module.ts_**
+
+```
+imports: [
+  FormsModule,
+  ReactiveFormsModule,
+  HttpClientModule
+]
+```
