@@ -1,27 +1,51 @@
-# Mybooks
+# Application pour répertorier les livres d'une bibliothèque
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.8.
+### Structure de l'application
 
-## Development server
+- component authentification
+- component view list book
+- component view detail
+- component form book (add & update)
+- component navbar
+- service authentification
+- service book
+- routing
+- guard
+- model book (title, author, picture?)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+> **Note :** application complète connectée à Firefox pour la gestion des données
 
-## Code scaffolding
+### création du projet
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```
+$ ng new mybooks --style=scss --routing --skip-tests=true
+```
 
-## Build
+### création du component header
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+```
+ng g c header
+```
 
-## Running unit tests
+### création des components auth
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+ng g c auth/signup
+ng g c auth/signin
+```
 
-## Running end-to-end tests
+### création des components book
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+```
+ng g c book/book-list
+ng g c book/single-book
+ng g c book/book-form
+```
 
-## Further help
+### création des services
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+```
+ng g s services/auth
+ng g s services/auth-guard
+ng g s services/book
+```
