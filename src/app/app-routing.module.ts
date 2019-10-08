@@ -12,7 +12,9 @@ const routes: Routes = [
   { path: 'auth/signin', component: SigninComponent },
   { path: 'books', component: BookListComponent, canActivate: [AuthGuardService] },
   { path: 'books/add', component: BookFormComponent, canActivate: [AuthGuardService] },
-  { path: 'books/view/:id', component: SingleBookComponent, canActivate: [AuthGuardService] }
+  { path: 'books/view/:id', component: SingleBookComponent, canActivate: [AuthGuardService] },
+  { path: '', redirectTo: 'books', pathMatch: 'full' },
+  { path: '**', redirectTo: 'books' }
 ];
 
 @NgModule({
