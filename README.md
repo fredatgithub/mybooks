@@ -170,3 +170,4 @@ npm install firebase
 > injection de dépendance de 3 classes
 > préparation du formulaire avec formBuilder
 > validators pattern pour l'email pour respecter la contrainte firebase de 6 caractères minimum de type alpha numérique
+> formulaire HTML dans signup.component.html
