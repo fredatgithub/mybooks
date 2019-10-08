@@ -96,7 +96,7 @@ module.exports = {
 ng g class models/book
 ```
 
-### définir les attributs de la class book.ts
+### définir les attributs de la class **_book.ts_**
 
 ```
 photo: string; (optionnel)
@@ -133,3 +133,19 @@ div.container
 ```
 ng serve -o
 ```
+
+### installer firebase
+
+```
+npm install firebase
+```
+
+### ouvrir la console firebase https://console.firebase.google.com
+
+> **Note :** Créer un projet "books" et désactiver Google Analytics
+> ouvrir le projet "books"
+> cliquer sur "Ajouter Firebase à votre application Web"
+> ajouter le nom de votre configuration "books"
+> copier le code javascript (var firebaseConfig=....)
+
+### coller le code copier à l'instant dans le constructor de **_app.component.ts_**
