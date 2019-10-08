@@ -8,12 +8,12 @@ import * as firebase from 'firebase';
 })
 export class BookService {
   books: Book[] = [];
-  bookSubject = new Subject<Book[]>();
+  booksSubject = new Subject<Book[]>();
 
   constructor() {}
 
   emitBooks() {
-    this.bookSubject.next(this.books);
+    this.booksSubject.next(this.books);
   }
 
   saveBooks() {
