@@ -114,6 +114,22 @@ li[routerLinkActive="active"]
 a.routerLink="books"
 ul.nav.navbar-nav.navbar-right
 li[routerLinkActive="active"]*2
+a[routerLink="auth/signup"]
+a[routerLink="auth/signin"]
 ```
 
-> **Note :** appuyer sur la touche tabulation devant chaque ligne pour compléter automatiquement le code HTML
+### préparation du point d'entrée **_app.component.html_**
+
+```
+<app-header></app-header>
+div.container
+<router-outlet></router-outlet>
+```
+
+> **Note :** appuyer sur la touche tabulation devant chaque ligne de code HTML pour le compléter automatiquement
+
+### tester l'application
+
+```
+ng serve -o
+```
