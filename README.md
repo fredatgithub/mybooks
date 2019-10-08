@@ -149,3 +149,12 @@ npm install firebase
 > copier le code javascript (var firebaseConfig=....)
 
 ### coller le code copier à l'instant dans le constructor de **_app.component.ts_**
+
+> **Note :** faites bien attention à coller le code dans **constructor**
+
+### aller dans la console web de firebase pour configurer un mode de connexion
+
+> **Note :** aller dans **_Authentication_**
+> cliquer sur **_configurer un mode de connexion_**
+> choisir **_adresse email/mot de passe_**
+> activer et enregister
