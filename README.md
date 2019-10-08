@@ -176,3 +176,17 @@ npm install firebase
 
 > code pratiquement identique au précédent
 > remplacer signup par signin et createUser par signinUser
+
+### préparer le header pour afficher les boutons en fonction de l'authentification de l'utilisateur
+
+> header.component.ts
+> header.component.html
+
+### création de la guard pour protéger les routes
+
+> créer le code dans auth-guard.component.ts
+> renvoyer une Promise
+
+### intégrer les guard dans les routes
+
+> toutes les routes avec books
