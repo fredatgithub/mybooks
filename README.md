@@ -49,3 +49,15 @@ ng g s services/auth
 ng g s services/auth-guard
 ng g s services/book
 ```
+
+### installation de Bootstrap
+
+```
+npm install bootstrap@3.3.7
+```
+
+### ajouter le style Bootstrap dans **_angular.json_**
+
+```
+"styles": ["node_modules/bootstrap/dist/css/bootstrap.min.css", "src/styles.scss"],
+```
