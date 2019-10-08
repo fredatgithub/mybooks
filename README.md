@@ -165,9 +165,14 @@ npm install firebase
 > connecter un utilisateur
 > déconnecter un utilisateur
 
-### ajout du formulaire register dans **_signup.component.ts_**
+### ajouter le formulaire de création d'un compte user dans **_signup.component.ts_**
 
 > injection de dépendance de 3 classes
 > préparation du formulaire avec formBuilder
 > validators pattern pour l'email pour respecter la contrainte firebase de 6 caractères minimum de type alpha numérique
 > formulaire HTML dans signup.component.html
+
+### ajouter le formulaire de connexion d'un user dans **_signin.component.ts_**
+
+> code pratiquement identique au précédent
+> remplacer signup par signin et createUser par signinUser
