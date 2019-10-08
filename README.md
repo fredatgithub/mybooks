@@ -158,3 +158,9 @@ npm install firebase
 > cliquer sur **_configurer un mode de connexion_**
 > choisir **_adresse email/mot de passe_**
 > activer et enregister
+
+### créer 3 méthodes dans **_auth.service.ts_**
+
+> créer un utilisateur
+> connecter un utilisateur
+> déconnecter un utilisateur
