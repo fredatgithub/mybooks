@@ -164,3 +164,9 @@ npm install firebase
 > créer un utilisateur
 > connecter un utilisateur
 > déconnecter un utilisateur
+
+### ajout du formulaire register dans **_signup.component.ts_**
+
+> injection de dépendance de 3 classes
+> préparation du formulaire avec formBuilder
+> validators pattern pour l'email pour respecter la contrainte firebase de 6 caractères minimum de type alpha numérique
