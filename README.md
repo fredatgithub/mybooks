@@ -72,7 +72,7 @@ imports: [
 ]
 ```
 
-### ajout d'une rège prettier pour afficher les single quote dans **_.prettierrc.js_**
+### ajout d'une règle prettier pour afficher les single quote dans **_.prettierrc.js_**
 
 ```
 module.exports = {
