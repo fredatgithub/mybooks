@@ -109,15 +109,17 @@ constructor (public title: string, public author: string) {} //attributs obligat
 ### ajout de la barre de navigation dans **_header.component.html_**
 
 ```
-nav.navbar.navbar-default
-div.container-fluid
-ul.nav.navbar-nav
-li[routerLinkActive="active"]
-a.routerLink="books"
-ul.nav.navbar-nav.navbar-right
-li[routerLinkActive="active"]*2
-a[routerLink="auth/signup"]
-a[routerLink="auth/signin"]
+<nav class="navbar.navbar-default">
+    <div class="container-fluid">
+        <ul class="nav navbar-nav">
+            <li routerLinkActive="active"><a routerLink="books">Livres</a></li>
+        </ul>
+        <ul class="nav.navbar-nav.navbar-right">
+            <li routerLinkActive="active"><a routerLink="auth/signup">Créer un compte</a></li>
+            <li routerLinkActive="active"><a routerLink="auth/signin">Connexion</a></li>
+        </ul>
+    </div>
+</nav>
 ```
 
 ### préparation du point d'entrée **_app.component.html_**
