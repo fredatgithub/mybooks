@@ -102,6 +102,8 @@ ng g class models/book
 photo: string; (optionnel)
 title: string; (obligatoire)
 author: string; (obligatoire)
+constructor (public title: string, public author: string) {} //attributs obligatoires
+    
 ```
 
 ### ajout de la barre de navigation dans **_header.component.html_**
